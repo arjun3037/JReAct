@@ -1,0 +1,25 @@
+# Internal docs — not for public repo
+CLAUDE.md
+JReAct-spec.md
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
