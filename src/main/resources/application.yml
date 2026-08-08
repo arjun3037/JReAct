@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: jreact
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: qwen3:8b
