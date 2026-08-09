@@ -1,4 +1,6 @@
 spring:
+  config:
+    import: optional:file:./secrets.properties
   application:
     name: jreact
   ai:
@@ -6,3 +8,16 @@ spring:
       base-url: http://localhost:11434
       chat:
         model: qwen3:8b
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini
+
+jreact:
+  agent:
+    max-iterations: 6
+
+logging:
+  level:
+    com.jreact: DEBUG
